@@ -1,0 +1,145 @@
+/* Box Idea Styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 1.3rem;
+  margin-top: 2.5em;
+}
+
+.ideabox-container {
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 0.6rem;
+}
+
+.ideabox-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.58rem -0.58rem;
+  padding-bottom: 1rem;
+}
+
+.ideabox-item {
+  position: relative;
+  flex: 1 0 12.9rem;
+  margin: 0.58rem;
+  color: #fff;
+  outline: none;
+  border-radius: 15px;
+}
+
+.ideabox-item:hover .ideabox-info,
+.ideabox-item:focus .ideabox-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  outline: none;
+  border-radius: 15px;
+}
+
+.ideabox-info {
+  opacity: 1;
+}
+
+.ideabox-infocontent {
+  margin: 1rem;
+}
+
+.ideabox-title {
+  margin-right: 0.4rem;
+
+  font-size: 1.5rem;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 700;
+}
+
+.ideabox-index {
+  font-family: "Inter", sans-serif;
+  margin-right: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.ideabox-readbutton {
+  font-family: "Roboto", sans-serif;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  color: white;
+
+  border: 1px solid white;
+
+  cursor: pointer;
+
+  margin: 0.5em;
+
+  font-size: 1rem;
+
+  border-radius: 2rem;
+
+  margin: 1rem;
+
+  font-size: 1.125rem;
+
+  padding: 0.5rem 1rem 0.5rem 1rem;
+
+  transition: 0.8s;
+
+  outline: none;
+}
+
+.ideabox-readbutton img {
+  width: 1.2rem;
+
+  height: 1.2rem;
+
+  vertical-align: top;
+}
+
+.ideabox-readbutton:hover {
+  font-family: "Roboto", sans-serif;
+
+  background-color: black;
+
+  border: 1px solid white;
+}
+
+.ideabox-image {
+  width: 100%;
+  max-height: 19em;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .infopage {
+    display: none;
+  }
+
+  .explorepage {
+    display: none;
+  }
+
+  .ideasfeed {
+    width: 100%;
+  }
+
+  .ideabox-image {
+    height: 18rem;
+  }
+}

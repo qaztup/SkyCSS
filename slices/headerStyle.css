@@ -1,0 +1,30 @@
+/* Style of Header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  line-height: 2em;
+  z-index: 1;
+}
+
+@media screen and (max-width: 960px) {
+  .headerelements {
+    display: none;
+  }
+
+  .main-logo {
+    width: 100%;
+  }
+
+  .main-logo img {
+    max-height: 8rem;
+
+    max-width: 8rem;
+  }
+}

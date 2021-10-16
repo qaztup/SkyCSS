@@ -1,0 +1,194 @@
+/* Font Styles */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Inter|Roboto|Roboto+Mono&display=swap");
+@import url(//db.onlinewebfonts.com/c/01199194e331ebe951e9bbc99c255b3f?family=Proxima+Nova+Lt);
+
+/* Main Styles */
+html {
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  padding-top: 1.5rem;
+}
+
+* {
+  outline: none;
+}
+
+/* Body Styles */
+
+body {
+  margin: 0;
+  background-color: #fcfbfb;
+  font-family: "Inter", sans-serif;
+}
+
+/* Cursor Pointer */
+
+input[type="submit"],
+button[type="submit"],
+button,
+select,
+a {
+  cursor: pointer;
+}
+
+/* Styles for Links */
+
+a {
+  text-decoration: none;
+}
+
+/* Buttons Style */
+
+.button-qtp {
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  margin: 0.1rem;
+  font-size: 1rem;
+}
+
+.qtp-btn-primary {
+  background-color: #42a2f6;
+  border: 0.2rem solid #42a2f6;
+  color: white;
+}
+
+.qtp-btn-primary:hover {
+  border: 0.2rem solid #7fd3ff;
+}
+
+.qtp-btn-secondary {
+  background-color: #424242;
+  border: 0.2rem solid #424242;
+  color: white;
+}
+
+.qtp-btn-secondary:hover {
+  border: 0.2rem solid #6d6d6d;
+}
+
+.qtp-btn-success {
+  background-color: #009624;
+  border: 0.2rem solid #009624;
+  color: white;
+}
+
+.qtp-btn-success:hover {
+  border: 0.2rem solid #00c853;
+}
+
+.qtp-btn-danger {
+  background-color: #d50000;
+  border: 0.2rem solid #d50000;
+  color: white;
+}
+
+.qtp-btn-danger:hover {
+  border: 0.2rem solid #ff5131;
+}
+
+.qtp-btn-warning {
+  background-color: #ffd600;
+  border: 0.2rem solid #ffd600;
+  color: black;
+}
+
+.qtp-btn-warning:hover {
+  border: 0.2rem solid #ffff52;
+}
+
+/* Inputs Style*/
+
+.textarea-qtp {
+  border: 1px solid #f0f0f0;
+  font-family: "Inter", sans-serif;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+}
+
+.textarea-qtp:hover {
+  border: 1px solid #7fd3ff;
+}
+
+.input-qtp {
+  border: 1px solid #f0f0f0;
+
+  outline: none;
+
+  padding: 0.3rem;
+
+  transition: 0.2s;
+
+  border-radius: 0.5rem;
+}
+
+.input-qtp:hover {
+  border: 1px solid #7fd3ff;
+}
+
+/* Bye */
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none;
+}
+
+/* NavBar */
+
+.navbar {
+  justify-content: center;
+
+  align-items: center;
+
+  display: flex;
+
+  height: 2rem;
+}
+
+.navbar button > i {
+  margin-right: 0.2rem;
+}
+
+.navbar button {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+  font-family: "Montserrat", sans-serif;
+
+  border: 1px solid #42a2f6;
+
+  background-color: white;
+
+  align-items: center;
+
+  margin: 0rem 0.2rem;
+
+  transition: 0.4s;
+
+  font-weight: 600;
+
+  color: #42a2f6;
+
+  cursor: pointer;
+
+  font-size: 1rem;
+
+  display: flex;
+
+  height: 1.8rem;
+
+  outline: none;
+}
+
+.navbar button:hover {
+  background-color: #42a2f6;
+  color: white;
+}
