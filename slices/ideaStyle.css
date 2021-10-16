@@ -1,0 +1,121 @@
+.i-ideatotalbox{
+    width: 72%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #F0F0F0;
+    padding: 12px;
+    background-color: #FFF;
+}
+
+.i-title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5em;
+    vertical-align: top;
+    margin-bottom: 2px;
+}
+
+.i-img{
+
+    height: auto;
+
+    width: 100%;
+
+    border-radius: 1rem;
+
+}
+
+.i-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.i-textautor{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-align: right;
+}
+
+.i-describe{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.i-imgbox{
+
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+.i-commentbox{
+
+    width: 100%;
+
+    border-top: 1px solid #F0F0F0;
+
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+.i-singlecomment{
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+
+	.i-ideatotalbox{
+
+		width: 100%;
+
+		margin-top: 1rem;
+
+	}
+
+	.i-imgbox{
+
+		display: none;
+
+	}
+
+	.i-title{
+
+		font-size: 2em;
+
+	}
+
+	.i-title-content{
+
+		display: none;
+
+	}
+
+	.i-info{
+
+		display: none;
+
+	}
+
+}
+
+
+@media screen and (min-width: 960px) {
+
+	.i-titles-mobile{
+
+		display: none;
+
+		max-width: 100%;
+
+	}
+
+}
