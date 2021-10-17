@@ -121,13 +121,9 @@ a {
 
 .input-qtp {
   border: 1px solid #f0f0f0;
-
   outline: none;
-
   padding: 0.3rem;
-
   transition: 0.2s;
-
   border-radius: 0.5rem;
 }
 
@@ -146,11 +142,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .navbar {
   justify-content: center;
-
   align-items: center;
-
   display: flex;
-
   height: 2rem;
 }
 
@@ -160,31 +153,18 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .navbar button {
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-
   font-family: "Montserrat", sans-serif;
-
   border: 1px solid #42a2f6;
-
   background-color: white;
-
   align-items: center;
-
   margin: 0rem 0.2rem;
-
   transition: 0.4s;
-
   font-weight: 600;
-
   color: #42a2f6;
-
   cursor: pointer;
-
   font-size: 1rem;
-
   display: flex;
-
   height: 1.8rem;
-
   outline: none;
 }
 
